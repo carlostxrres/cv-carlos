@@ -31,7 +31,7 @@ const periodLabel = usePeriodLabel(
       </h3>
     </div>
 
-    <div v-if="periodStart || link" class="header-end">
+    <div v-if="periodLabel || link" class="header-end">
       <span v-if="periodLabel" class="time">
         {{ periodLabel }}
       </span>
