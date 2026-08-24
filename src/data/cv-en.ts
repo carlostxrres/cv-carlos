@@ -45,7 +45,8 @@ const cv: Cv = {
     {
       institution: "Ironhack",
       title: "Data Analytics Course",
-      period: "Nov 2024 - Dec 2024",
+      periodStart: "2024-11",
+      periodEnd: "2024-12",
       link: {
         text: "Certificate",
         url: "https://www.credential.net/fd65c6e8-e80c-411b-afbc-36eb6573550b",
@@ -57,7 +58,8 @@ const cv: Cv = {
     {
       institution: "Amazon Web Services (AWS)",
       title: "AWS Certified AI Practitioner",
-      period: "Jan 2026",
+      periodStart: "2026-01",
+      periodEnd: "2026-01",
       link: {
         text: "Certificate",
         url: "https://www.credly.com/badges/a0efa725-f469-4aa8-93b9-94e6e78932e7/public_url",
@@ -69,7 +71,8 @@ const cv: Cv = {
     {
       institution: "Amazon Web Services (AWS)",
       title: "AWS Certified Cloud Practitioner",
-      period: "Nov 2024",
+      periodStart: "2024-11",
+      periodEnd: "2024-11",
       link: {
         text: "Certificate",
         url: "https://www.credly.com/badges/59dd83b5-d3ad-4229-b7fa-e0c584d7e170/public_url",
@@ -81,7 +84,8 @@ const cv: Cv = {
     {
       institution: "Ironhack",
       title: "Web Front-End Bootcamp",
-      period: "Mar 2024 - Jul 2024",
+      periodStart: "2024-03",
+      periodEnd: "2024-07",
       link: {
         text: "Certificate",
         url: "https://www.credential.net/a0ba9540-bf26-4ab8-b125-11f51187ed00",
@@ -92,7 +96,8 @@ const cv: Cv = {
     {
       institution: "Ironhack",
       title: "Web Back-End Bootcamp",
-      period: "Feb 2023 - Jun 2023",
+      periodStart: "2023-02",
+      periodEnd: "2023-06",
       link: {
         text: "Certificate",
         url: "https://www.credential.net/ffaa5321-123d-4963-bff8-159456a2cde0",
@@ -104,7 +109,8 @@ const cv: Cv = {
     {
       institution: "Universitat Autònoma de Barcelona",
       title: "Bachelor's Degree in Political Science and Public Management",
-      period: "Sep 2012 - Jul 2017",
+      periodStart: "2012-09",
+      periodEnd: "2017-07",
       description: "Specialization in International Relations.",
     },
   ],
@@ -134,7 +140,8 @@ const cv: Cv = {
     {
       title: "Management Technician",
       institution: "Barcelona City Council",
-      period: "Mar 2026 - Now",
+      periodStart: "2026-03",
+      periodEnd: null,
       description: "Providing operational and cross-functional support to the Directorate of Education in managing projects that promote the principles of the Charter of Educating Cities in Barcelona.",
       bulletPoints: [],
       tags: [],
@@ -142,7 +149,8 @@ const cv: Cv = {
     {
       title: "CS Andon Cord Subject Matter Expert (L4)",
       institution: "Amazon",
-      period: "May 2025 - Mar 2026",
+      periodStart: "2025-05",
+      periodEnd: "2026-03",
       description:
         "Building upon my previous role's responsibilities, my role expanded to being part of the team's management.",
       bulletPoints: [
@@ -167,7 +175,8 @@ const cv: Cv = {
     {
       title: "CS Andon Cord Associate (L3)",
       institution: "Amazon",
-      period: "Jan 2022 - May 2025",
+      periodStart: "2022-01",
+      periodEnd: "2025-05",
       description:
         "Researched customer inquiries and inventory discrepancies to identify root causes of customer dissatisfaction peaks and ensure the accuracy of product data, liaising with internal warehouses and external vendors. In early 2023, became the solo full-time front-end developer in the team.",
       bulletPoints: [
@@ -189,7 +198,8 @@ const cv: Cv = {
     {
       title: "Spanish Teacher",
       institution: "Freelance",
-      period: "Jul 2019 - Jan 2022",
+      periodStart: "2019-07",
+      periodEnd: "2022-01",
       description:
         'Taught Spanish courses in-person and online, adapting strategies for all levels. Developed business Spanish courses themed around SCRUM for a French digital company and coached managers and professionals in Barcelona (reviews available at <a target="_blank" href="https://www.apprentus.com/in/carlostorres">Apprentus</a>).',
       tags: ["Client management", "Instructional design"],
@@ -198,14 +208,16 @@ const cv: Cv = {
       title: "Academic Intern",
       institution: "Atlas Language School",
       location: "Dublin",
-      period: "Jun 2018 - Sep 2018",
+      periodStart: "2018-06",
+      periodEnd: "2018-09",
       description:
         "Improved efficiency of student feedback quantitative and qualitative analysis by designing spreadsheets ad hoc, and provided administrative support within the Academic Department of the school.",
     },
     {
       title: "Research Trainee",
       institution: "Institut de Ciències Polítiques i Socials",
-      period: "Oct 2015 - Apr 2016",
+      periodStart: "2015-10",
+      periodEnd: "2016-04",
       description:
         'Support for the <a target="_blank" href="http://www.icps.cat/archivos/APC/anuari2015.pdf">"Anuari Polític de Catalunya" report of 2015</a> (mark: A). My tasks included summary of legal texts, elaboration of databases and electoral data treatment, follow-up of government activity, and press research.',
     },
@@ -232,14 +244,16 @@ const cv: Cv = {
       title: "Volunteer",
       institution: "WWOOF",
       location: "United Kingdom",
-      period: "Jul 2016 - Aug 2016",
+      periodStart: "2016-07",
+      periodEnd: "2016-08",
       description:
         "Worked with two organic farms and social service providers for disabled people in Malmesbury and Chedington.",
     },
     {
       title: "Boy Scout",
       institution: "Acció Escolta",
-      period: "Sep 2000 - Aug 2013",
+      periodStart: "2000-09",
+      periodEnd: "2013-08",
       description:
         "Growing up as a scout, I have internalized certain values and I have assumed several civil and educational responsibilities. I have also been in charge of 6 to 18 year old children.",
     },

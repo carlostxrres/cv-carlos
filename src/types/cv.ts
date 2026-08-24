@@ -20,7 +20,8 @@ export type ContactDetail = {
 export type Education = {
   readonly institution: string;
   readonly title: string;
-  readonly period: string;
+  readonly periodStart: string; // date as yyyy-mm
+  readonly periodEnd: string | null; // date as yyyy-mm, null if "not yet"
   readonly link?: Link;
   readonly description: string;
   readonly tags?: Tag[];
@@ -42,14 +43,16 @@ export type Volunteering = {
   readonly title: string;
   readonly institution: string;
   readonly location?: string;
-  readonly period: string;
+  readonly periodStart: string; // date as yyyy-mm
+  readonly periodEnd: string | null; // date as yyyy-mm, null if "not yet"
   readonly description: string;
 };
 
 export type Work = {
   readonly title: string;
   readonly institution: string;
-  readonly period: string;
+  readonly periodStart: string; // date as yyyy-mm
+  readonly periodEnd: string | null; // date as yyyy-mm, null if "not yet"
   readonly description: string;
   readonly bulletPoints?: string[];
   readonly tags?: Tag[];
@@ -67,7 +70,8 @@ export type TimelineItem = {
   readonly description: string;
   readonly institution?: string;
   readonly location?: string;
-  readonly period?: string;
+  readonly periodStart?: string;
+  readonly periodEnd?: string | null;
   readonly link?: Link;
   readonly bulletPoints?: readonly string[];
   readonly tags?: readonly Tag[];

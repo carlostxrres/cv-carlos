@@ -11,6 +11,7 @@ export type Labels = {
   /** Print/PDF only; the online resume URL is appended */
   readonly latestVersionAt: string;
   readonly pictureAlt: string;
+  readonly now: string;
   readonly sections: {
     readonly aboutMe: string;
     readonly education: string;

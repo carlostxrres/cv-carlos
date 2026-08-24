@@ -45,7 +45,8 @@ const cv: Cv = {
     {
       institution: "Ironhack",
       title: "Curs de Data Analytics",
-      period: "Nov 2024 - Des 2024",
+      periodStart: "2024-11",
+      periodEnd: "2024-12",
       link: {
         text: "Certificat",
         url: "https://www.credential.net/fd65c6e8-e80c-411b-afbc-36eb6573550b",
@@ -57,7 +58,8 @@ const cv: Cv = {
     {
       institution: "Amazon Web Services (AWS)",
       title: "AWS Certified AI Practitioner",
-      period: "Gen 2026",
+      periodStart: "2026-01",
+      periodEnd: "2026-01",
       link: {
         text: "Certificat",
         url: "https://www.credly.com/badges/a0efa725-f469-4aa8-93b9-94e6e78932e7/public_url",
@@ -69,7 +71,8 @@ const cv: Cv = {
     {
       institution: "Amazon Web Services (AWS)",
       title: "AWS Certified Cloud Practitioner",
-      period: "Nov 2024",
+      periodStart: "2024-11",
+      periodEnd: "2024-11",
       link: {
         text: "Certificat",
         url: "https://www.credly.com/badges/59dd83b5-d3ad-4229-b7fa-e0c584d7e170/public_url",
@@ -81,7 +84,8 @@ const cv: Cv = {
     {
       institution: "Ironhack",
       title: "Bootcamp de front-end web",
-      period: "Mar 2024 - Jul 2024",
+      periodStart: "2024-03",
+      periodEnd: "2024-07",
       link: {
         text: "Certificat",
         url: "https://www.credential.net/a0ba9540-bf26-4ab8-b125-11f51187ed00",
@@ -92,7 +96,8 @@ const cv: Cv = {
     {
       institution: "Ironhack",
       title: "Bootcamp de back-end web",
-      period: "Feb 2023 - Jun 2023",
+      periodStart: "2023-02",
+      periodEnd: "2023-06",
       link: {
         text: "Certificat",
         url: "https://www.credential.net/ffaa5321-123d-4963-bff8-159456a2cde0",
@@ -104,7 +109,8 @@ const cv: Cv = {
     {
       institution: "Universitat Autònoma de Barcelona",
       title: "Grau en Ciència Política i Gestió Pública",
-      period: "Set 2012 - Jul 2017",
+      periodStart: "2012-09",
+      periodEnd: "2017-07",
       description: "Especialització en Relacions Internacionals.",
     },
   ],
@@ -134,7 +140,8 @@ const cv: Cv = {
     {
       title: "Tècnic de gestió",
       institution: "Ajuntament de Barcelona",
-      period: "Mar 2026 - Actualitat",
+      periodStart: "2026-03",
+      periodEnd: null,
       description: "Suport operatiu i transversal a la Direcció d'Educació en la gestió de projectes que promouen els principis de la Carta de Ciutats Educadores a Barcelona.",
       bulletPoints: [],
       tags: [],
@@ -142,7 +149,8 @@ const cv: Cv = {
     {
       title: "CS Andon Cord Subject Matter Expert (L4)",
       institution: "Amazon",
-      period: "Mai 2025 - Mar 2026",
+      periodStart: "2025-05",
+      periodEnd: "2026-03",
       description:
         "Partint de les responsabilitats del meu rol anterior, el meu paper es va ampliar per formar part de la gestió de l'equip.",
       bulletPoints: [
@@ -165,7 +173,8 @@ const cv: Cv = {
     {
       title: "CS Andon Cord Associate (L3)",
       institution: "Amazon",
-      period: "Gen 2022 - Mai 2025",
+      periodStart: "2022-01",
+      periodEnd: "2025-05",
       description:
         "Recerca de consultes de clients i discrepàncies d'inventari per identificar les causes dels pics d'insatisfacció i garantir l'exactitud de les dades de producte, en coordinació amb magatzems interns i proveïdors externs. A principis de 2023 em vaig convertir en l'únic desenvolupador front-end a temps complet de l'equip.",
       bulletPoints: [
@@ -187,7 +196,8 @@ const cv: Cv = {
     {
       title: "Professor d'espanyol",
       institution: "Autònom",
-      period: "Jul 2019 - Gen 2022",
+      periodStart: "2019-07",
+      periodEnd: "2022-01",
       description:
         'Cursos d\'espanyol presencials i en línia, adaptant les estratègies a tots els nivells. Vaig desenvolupar cursos d\'espanyol de negocis basats en SCRUM per a una empresa digital francesa i vaig formar directius i professionals a Barcelona (ressenyes disponibles a <a target="_blank" href="https://www.apprentus.com/in/carlostorres">Apprentus</a>).',
       tags: ["Gestió de clients", "Disseny instruccional"],
@@ -196,14 +206,16 @@ const cv: Cv = {
       title: "Becari acadèmic",
       institution: "Atlas Language School",
       location: "Dublín",
-      period: "Jun 2018 - Set 2018",
+      periodStart: "2018-06",
+      periodEnd: "2018-09",
       description:
         "Millora de l'eficiència de l'anàlisi quantitativa i qualitativa del feedback dels estudiants mitjançant el disseny de fulls de càlcul ad hoc, i suport administratiu al Departament Acadèmic de l'escola.",
     },
     {
       title: "Investigador en pràctiques",
       institution: "Institut de Ciències Polítiques i Socials",
-      period: "Oct 2015 - Abr 2016",
+      periodStart: "2015-10",
+      periodEnd: "2016-04",
       description:
         'Suport a l\'<a target="_blank" href="http://www.icps.cat/archivos/APC/anuari2015.pdf">"Anuari Polític de Catalunya" de 2015</a> (nota: A). Les meves tasques incloïen el resum de textos legals, l\'elaboració de bases de dades i el tractament de dades electorals, el seguiment de l\'activitat de govern i la recerca de premsa.',
     },
@@ -230,14 +242,16 @@ const cv: Cv = {
       title: "Voluntari",
       institution: "WWOOF",
       location: "Regne Unit",
-      period: "Jul 2016 - Ago 2016",
+      periodStart: "2016-07",
+      periodEnd: "2016-08",
       description:
         "Col·laboració amb dues granges ecològiques i entitats de serveis socials per a persones amb discapacitat a Malmesbury i Chedington.",
     },
     {
       title: "Escolta",
       institution: "Acció Escolta",
-      period: "Set 2000 - Ago 2013",
+      periodStart: "2000-09",
+      periodEnd: "2013-08",
       description:
         "Créixer com a escolta m'ha fet interioritzar certs valors i assumir diverses responsabilitats cíviques i educatives. També he estat responsable d'infants i joves de 6 a 18 anys.",
     },

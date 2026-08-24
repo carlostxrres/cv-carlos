@@ -1,13 +1,20 @@
 <script setup lang="ts">
 import type { TimelineItem } from "@/types/cv";
+import { usePeriodLabel } from "@/composables/usePeriodLabel";
 
-defineProps<{
+const props = defineProps<{
   institution: TimelineItem["institution"];
   location: TimelineItem["location"];
   title: TimelineItem["title"];
-  period: TimelineItem["period"];
+  periodStart: TimelineItem["periodStart"];
+  periodEnd: TimelineItem["periodEnd"];
   link: TimelineItem["link"];
 }>();
+
+const periodLabel = usePeriodLabel(
+  props.periodStart,
+  props.periodEnd,
+);
 </script>
 
 <template>
@@ -24,9 +31,9 @@ defineProps<{
       </h3>
     </div>
 
-    <div v-if="period || link" class="header-end">
-      <span class="time">
-        {{ period }}
+    <div v-if="periodStart || link" class="header-end">
+      <span v-if="periodLabel" class="time">
+        {{ periodLabel }}
       </span>
 
       <a v-if="link" :href="link.url" target="_blank">

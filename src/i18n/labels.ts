@@ -9,6 +9,7 @@ export const labels: Record<Lang, Labels> = {
     seeAsPdf: "PDF",
     latestVersionAt: "See the latest version at",
     pictureAlt: "Picture of Carlos Torres Moral",
+    now: "Now",
     sections: {
       aboutMe: "About me",
       education: "Education",
@@ -27,6 +28,7 @@ export const labels: Record<Lang, Labels> = {
     seeAsPdf: "PDF",
     latestVersionAt: "Consulta la darrera versió a",
     pictureAlt: "Foto de Carlos Torres Moral",
+    now: "Actualitat",
     sections: {
       aboutMe: "Sobre mi",
       education: "Formació",
@@ -45,6 +47,7 @@ export const labels: Record<Lang, Labels> = {
     seeAsPdf: "PDF",
     latestVersionAt: "Consulta la última versión en",
     pictureAlt: "Foto de Carlos Torres Moral",
+    now: "Actualidad",
     sections: {
       aboutMe: "Sobre mí",
       education: "Formación",

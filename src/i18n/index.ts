@@ -10,6 +10,8 @@ export const LANGS = ["en", "ca", "es"] as const;
 
 const cvByLang = { en: cvEn, ca: cvCa, es: cvEs } as const;
 
+const localeByLang = { en: "en-US", ca: "ca-ES", es: "es-ES" } as const;
+
 function initialLang(): Lang {
   const param = new URLSearchParams(location.search).get("lang");
   return (LANGS as readonly string[]).includes(param ?? "")
@@ -19,6 +21,7 @@ function initialLang(): Lang {
 
 export const lang = ref<Lang>(initialLang());
 export const cv = computed(() => cvByLang[lang.value]);
+export const locale = computed(() => localeByLang[lang.value]);
 export const labels = computed(() => allLabels[lang.value]);
 
 export function setLang(next: Lang) {

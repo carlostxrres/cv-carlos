@@ -16,7 +16,8 @@ defineProps<{
         :institution="item.institution"
         :location="item.location"
         :title="item.title"
-        :period="item.period"
+        :periodStart="item.periodStart"
+        :periodEnd="item.periodEnd"
         :link="item.link"
       />
 
